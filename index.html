@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+    <title>Breakfast Tracker</title>
+  </head>
+  <body class="body">
+    <header class="header-section">
+      <a class="header-logo" href="./">
+        <img src="./Assets/AKQA-Logo.svg" alt="akqa-logo" class="akqa-logo" />
+      </a>
+      <h1 class="header-text">Friday Breakfast Tracker</h1>
+    </header>
+    <div class="main-section">
+      <div class="main-availability-section border">
+        <h2 class="secondary-header">Add My Availability</h2>
+        <div class="availability-form-container">
+          <form id="form" class="availability-form">
+            <div class="form-main-container">
+              <div class="form-item-container">
+                <label class="form-item-label" for="first-name"
+                  >First Name</label
+                >
+                <input
+                  required
+                  name="first-name"
+                  type="text"
+                  id="first-name"
+                  class="form-input"
+                />
+              </div>
+              <div class="form-item-container">
+                <label class="form-item-label" for="last-name">Last Name</label>
+                <input
+                  required
+                  name="last-name"
+                  type="text"
+                  id="last-name"
+                  class="form-input"
+                />
+              </div>
+              <div class="form-item-container">
+                <label class="form-item-label" for="food-choice"
+                  >Food Choice</label
+                >
+                <select
+                  name="food-choice"
+                  id="food-choice"
+                  class="form-input-select form-input"
+                >
+                  <option value="veg">Veg</option>
+                  <option value="egg">Egg</option>
+                  <option value="nonveg">Non-Veg</option>
+                </select>
+              </div>
+              <div class="form-item-container">
+                <label class="form-item-label" for="drink-choice"
+                  >Drink Choice</label
+                >
+                <select
+                  name="drink-choice"
+                  id="drink-choice"
+                  class="form-input form-input-select"
+                >
+                  <option value="tea">Tea</option>
+                  <option value="coffee">Coffee</option>
+                  <option value="ice-tea">Ice-Tea</option>
+                  <option value="juice">Juice</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-button-container">
+              <button
+                type="submit"
+                class="form-submit-button"
+                id="form-submit-button"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="main--secondary">
+        <div class="main-user-detail--section border">
+          <h2 class="secondary-header">Friday Breakfast Availability</h2>
+          <div class="main-user--table-container">
+            <table class="table" id="myTable" >
+                <thead class="table-head">
+                  <tr class="table-row">
+                    <th class="table-head--heading table-cell">First Name</th>
+                    <th class="table-head--heading table-cell">Last Name</th>
+                    <th class="table-head--heading table-cell">Drink Choice</th>
+                    <th class="table-head--heading table-cell">Food Choice</th>
+                  </tr>
+                </thead>
+                <tbody id="table-data" class="main-table-body"></tbody>
+              </table></div>
+          
+          <div class="pagination-container">
+            <ul id="pagination" class="pagination"></ul>
+          </div>
+        </div>
+
+        <div id="food-chart" class="border food-chart">
+          <h2 class="food-chart-title secondary-header"></h2>
+        </div>
+        <div id="drink-chart" class="border drink-chart">
+          <h2 class="drink-chart-title secondary-header"></h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

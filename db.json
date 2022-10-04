@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "name": "saif",
+      "lastName": "ullah",
+      "foodChoice": "veg",
+      "drinkChoice": "tea",
+      "id": 1
+    },
+    {
+      "name": "ashwani",
+      "lastName": "singh",
+      "foodChoice": "veg",
+      "drinkChoice": "ice-tea",
+      "id": 2
+    },
+    {
+      "name": "chaman",
+      "lastName": "kumar",
+      "foodChoice": "egg",
+      "drinkChoice": "coffee",
+      "id": 3
+    },
+    {
+      "name": "gaurav",
+      "lastName": "sharma",
+      "foodChoice": "nonveg",
+      "drinkChoice": "juice",
+      "id": 4
+    },
+    {
+      "name": "Anurag",
+      "lastName": "Bhatnagar",
+      "foodChoice": "egg",
+      "drinkChoice": "coffee",
+      "id": 5
+    },
+    {
+      "name": "Akanksha",
+      "lastName": "tripathi",
+      "foodChoice": "veg",
+      "drinkChoice": "tea",
+      "id": 6
+    },
+    {
+      "name": "mukund",
+      "lastName": "Moon",
+      "foodChoice": "veg",
+      "drinkChoice": "ice-tea",
+      "id": 7
+    },
+    {
+      "name": "Riya",
+      "lastName": "Gover",
+      "foodChoice": "nonveg",
+      "drinkChoice": "ice-tea",
+      "id": 8
+    },
+    {
+      "name": "chaynika",
+      "lastName": "chaudhary",
+      "foodChoice": "nonveg",
+      "drinkChoice": "juice",
+      "id": 9
+    },
+    {
+      "name": "kiran",
+      "lastName": "rawat",
+      "foodChoice": "egg",
+      "drinkChoice": "ice-tea",
+      "id": 10
+    },
+    {
+      "name": "sumit",
+      "lastName": "arya",
+      "foodChoice": "veg",
+      "drinkChoice": "coffee",
+      "id": 11
+    },
+    {
+      "name": "shubham",
+      "lastName": "sharma",
+      "foodChoice": "veg",
+      "drinkChoice": "ice-tea",
+      "id": 12
+    },
+    {
+      "name": "ayushi",
+      "lastName": "singh",
+      "foodChoice": "nonveg",
+      "drinkChoice": "ice-tea",
+      "id": 13
+    },
+    {
+      "name": "ayushi",
+      "lastName": "singh",
+      "foodChoice": "nonveg",
+      "drinkChoice": "ice-tea",
+      "id": 14
+    },
+    {
+      "name": "divaynshu",
+      "lastName": "saxena",
+      "foodChoice": "egg",
+      "drinkChoice": "coffee",
+      "id": 15
+    },
+    {
+      "name": "aryan",
+      "lastName": "singh",
+      "foodChoice": "veg",
+      "drinkChoice": "tea",
+      "id": 16
+    }
+  ]
+}
